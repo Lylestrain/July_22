@@ -9,68 +9,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  min-height: 90px;
-  line-height: 90px;
-  text-align: center;
-  background-color: teal;
-  color: rgb(255, 255, 255);
-}
-
-nav {
-  min-height: 30px;
-  line-height: 30px;
-  text-align: center;
-  background-color: navy;
-  color: aliceblue;
-}
-
-.row {
-  margin: 8px;
-  overflow: hidden;
-}
-
-.article {
-  width: 33.3%;
-  float: left;
-  padding: 5px;
+div {
+  width: 71.7vw;
+  margin: 0 auto;
 }
 
 img {
   width: 100%;
+  display: none;
 }
 
-.row .article p {
-  padding: 0 5px;
+.block {
+  width: 80px;
+  height: 80px;
+  background-color: lightsteelblue;
+  border-radius: 50%;
 }
-
-footer {
-  min-height: 35px;
-  line-height: 35px;
-  text-align: center;
-  background-color: navy;
-  color: aliceblue;
-}
-
-
-
-/* start of desktop styles */
-
-  @media screen and (max-width: 991px) {
-  /* start of large tablet styles */
-  
-  }
-  
-  @media screen and (max-width: 767px) {
-  /* start of medium tablet styles */
-  
-  }
-  
-  @media screen and (max-width: 479px) {
-  /* start of phone styles */
-  
-  }
-
-
-
 
