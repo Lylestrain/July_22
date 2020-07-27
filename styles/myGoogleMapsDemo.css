@@ -1,0 +1,34 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  width: 71.7vw;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  display: none;
+}
+
+.block {
+  width: 80px;
+  height: 80px;
+  background-color: lightsteelblue;
+  border-radius: 50%;
+}
+
+.fa-fish {
+  color: salmon;
+  font-size: 3em;
+}
+
+
